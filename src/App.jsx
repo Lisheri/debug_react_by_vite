@@ -20,6 +20,7 @@ function App() {
       })
     })
     // 视图是更新了, 但是这里还是拿不到最新的状态, 除非使用一个对象进行包裹, 但实际上是同步更新的
+    // 这里count不是最新的, 但是latestCount.current是最新的
     console.info(count, latestCount.current)
   }
 

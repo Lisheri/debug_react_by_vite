@@ -38,7 +38,7 @@ export default defineConfig({
       enforce: 'pre',
       resolveId(id) {
         if (id.includes('react/')) {
-          console.log(`尝试解析ID: ${id}`)
+          // console.log(`尝试解析ID: ${id}`)
         }
         return null
       },
